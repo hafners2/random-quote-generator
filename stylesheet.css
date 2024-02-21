@@ -1,0 +1,59 @@
+@font-face {
+    font-family: cabin-bold;
+    src: url("./fonts/Cabin_SemiCondensed-Bold.ttf");
+}
+
+@font-face {
+    font-family: cabin-med;
+    src: url("./fonts/Cabin_SemiCondensed-Medium.ttf");
+}
+
+@font-face {
+    font-family: cabin-reg;
+    src: url("./fonts/Cabin_SemiCondensed-Regular.ttf");
+}
+
+body {
+    background-color: rgb(122, 99, 212);
+    width: 100%;
+}
+
+header {
+    width: 80%;
+    margin: auto;
+    text-align: center;
+    font-family: cabin-bold;
+    font-size: 3vw;
+    color:rgb(227, 219, 219);
+}
+
+button {
+    font-size: 2vh;
+    font-family: cabin-med;
+    border: none;
+    border-radius: 50px;
+    background-color: rgb(227, 219, 219);
+    opacity: 0.8;
+    padding: 30px;
+}
+
+button:hover {
+    filter: brightness(80%);
+}
+
+button:active {
+    filter: brightness(60%);
+}
+
+#quotes {
+    width: 70%;
+    height: 40vh;
+    margin: 15% auto;
+    text-align: center;
+    justify-content: center;
+    font-size: 4vw;
+    font-family: cabin-med;
+    color:rgb(227, 219, 219);
+    opacity: 0.9;
+    line-height: 2em;
+}
